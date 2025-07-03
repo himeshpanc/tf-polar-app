@@ -7,8 +7,8 @@ spec:
     name: himesh-corp-mac
     namespace: dev
   source:
-    path: tf-polar-app/charts/polar
-    repoURL: https://github.com/himeshpanc/m5-tutorial.git
+    path: charts/polar
+    repoURL: https://github.com/himeshpanc/tf-polar-app.git
     targetRevision: HEAD
     helm:
       valueFiles:
