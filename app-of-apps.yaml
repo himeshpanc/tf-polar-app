@@ -7,7 +7,7 @@ spec:
     name: himesh-corp-mac
     namespace: argocd
   source:
-    path: tf-polar-app/apps
+    path: apps
     repoURL: https://github.com/himeshpanc/m5-tutorial.git
     targetRevision: HEAD
   project: default

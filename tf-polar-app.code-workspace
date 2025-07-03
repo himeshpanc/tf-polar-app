@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../akuity/terraform-provider-akp"
+		}
+	],
+	"settings": {}
+}
