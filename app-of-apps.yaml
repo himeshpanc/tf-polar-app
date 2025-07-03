@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: polar-app-of-apps
+spec:
+  destination:
+    name: himesh-corp-mac
+    namespace: argocd
+  source:
+    path: tf-polar-app/apps
+    repoURL: https://github.com/himeshpanc/m5-tutorial.git
+    targetRevision: HEAD
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
